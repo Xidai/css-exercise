@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  ul.nav {
+    margin: 200px auto;
+    width: 15em;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    list-style-type: none;
+  }
+  ul.nav > li > a {
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 8px 14px;
+    font-size: 14px;
+    color: #0088cc;
+  }
+  ul.nav > li > a:hover, ul.nav > li > a:focus {
+    background-color: #f5f5f5;
+    color: #005580;
+  }
+  ul.nav > li > a:hover > .nav-icon-right, ul.nav > li > a:focus > .nav-icon-right {
+    opacity: .5;
+  }
+  ul.nav > li:last-child > a {
+    border-bottom: none;
+  }
+  ul.nav > li:first-child > a:hover, ul.nav > li:first-child > a:focus {
+    border-radius: 6px 6px 0 0;
+  }
+  ul.nav > li:last-child > a:hover, ul.nav > li:last-child > a:focus {
+    border-radius: 0 0 6px 6px;
+  }
+  ul.nav > li > a > .nav-icon-right {
+    height: 14px;
+    width: 14px;
+    background: url(http://getbootstrap.com/2.3.2/assets/img/glyphicons-halflings.png) 13px -72px;
+    float: right;
+    opacity: .25;
+    margin-top: 2px;
+  }
+  </style>
+</head>
+<body>
+  <ul class="nav">
+    <li>
+      <a href="#"><i class="nav-icon-right"></i>Home</a>
+    </li>
+    <li><a href="#"><i class="nav-icon-right"></i>HTML</a></li>
+    <li><a href="#"><i class="nav-icon-right"></i>CSS</a></li>
+    <li><a href="#"><i class="nav-icon-right"></i>JavaScript</a></li>
+  </ul>
+</body>
+</html>
