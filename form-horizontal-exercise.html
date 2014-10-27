@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <style type="text/css">
+  fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+  }
+  legend {
+    font-weight: bold;
+  }
+  label {
+    float: left;
+    width: 10em;
+    cursor: pointer;
+  }
+  input[type="text"] {
+    width: 20em;
+  }
+  input[type="text"]:focus, textarea:focus {
+    background-color: #ffc;
+  }
+  input[type="text"], textarea {
+    border-top: 2px solid #999;
+    border-left: 2px solid #999;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+  }
+  </style>
+</head>
+<body>
+    <fieldset>
+    <legend>Your Contact Details</legend>
+    <div>
+      <label for="author">Name: </label>
+      <input name="author" id="author" type="text" />
+    </div>
+    <div>
+      <label for="email">Email Address: </label>
+      <input name="email" id="email" type="text" />
+    </div>
+    <div>
+      <label for="url">Web Address: </label>
+      <input name="url" id="url" type="text" />
+    </div>
+  </fieldset>
+  <fieldset>
+    <legend>Comments</legend>
+    <div>
+      <label for="text">Message: </label>
+      <textarea name="text" id="text"></textarea>
+    </div>
+  </fieldset>
+  <fieldset id="remember-me">
+    <legend>Remember Me</legend>
+    <div>
+      <label for="remember-yes">
+        <input name="remember" id="remember-yes" class="radio" type="radio" value="yes" />
+        Yes
+      </label>
+    </div>
+    <div>
+      <label for="remember-no">
+        <input name="remember" id="remember-no" class="radio" type="radio" value="no" checked="checked" />
+        No
+      </label>
+    </div>
+  </fieldset>
+</body>
+</html>
