@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style type="text/css">
+  /* Global setting */
+  * {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    margin: 24px;
+  }
+  ul.nav {
+    list-style-type: none;
+    width: 100%;
+  }
+
+  /* nav-tabs */
+  ul.nav-tabs {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ddd;
+  }
+  ul.nav-tabs::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  ul.nav-tabs > li{
+    float: left;
+    margin-right: 1px;
+    margin-bottom: -1px;
+  }
+  ul.nav-tabs > li > a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 8px 12px; 
+    margin-right: 0.1em;
+    color: #0088cc;
+    border-radius: 4px 4px 0 0;
+  }
+  ul.nav-tabs > li > a:hover,
+  ul.nav-tabs > li > a:active {
+    background-color: #eee;
+    color: #005580;
+  }
+  ul.nav-tabs > li.selected > a:link,
+  ul.nav-tabs > li.selected > a:hover,
+  ul.nav-tabs > li.selected > a:visited {
+    border: 1px solid #ddd;
+    border-bottom: none;
+    background-color: #fff;
+    color: #555;
+    cursor: default;
+  }
+
+  /* nav-pills */
+  ul.nav-pills::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  ul.nav-pills > li{
+    float: left;
+    margin-right: 1px;
+  }
+  ul.nav-pills > li > a {
+    display: block;
+    color: #0088cc;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  ul.nav-pills > li > a:hover,
+  ul.nav-pills > li > a:active {
+    background-color: #eee;
+    color: #005580;
+  }
+  ul.nav-pills > li.selected > a {
+    background-color: #0088cc;
+    color: #fff;
+  }
+
+  /* nav-bar */
+  ul.nav-bar::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+  ul.nav-bar {
+    border-radius: 5px;
+    border: 1px solid #d4d4d4;
+    background: ;
+  }
+  ul.nav-bar > li {
+    float: left;
+    margin-right: 1px;
+  }
+  ul.nav-bar > li > a {
+    display: block;
+    padding: 10px 15px 10px;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <ul class="nav nav-tabs">
+      <li class="selected"><a href="#">Home</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+    <br /><br />
+    <ul class="nav nav-pills">
+      <li class="selected"><a href="#">Home</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+    <br /><br />
+    <ul class="nav nav-bar">
+      <li class="brand"><a href="#">Home</a></li>
+      <li class="selected"><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
+  </div>
+</body>
+</html>
