@@ -9,6 +9,9 @@
     border: 1px solid #ccc;
     background-color: #f8f8f8;
   }
+  fieldset div {
+    clear: both;
+  }
   legend {
     font-weight: bold;
   }
@@ -17,7 +20,10 @@
     width: 10em;
     cursor: pointer;
   }
-  input[type="text"] {
+  textarea {
+    height: 10em;
+  }
+  input[type="text"], textarea {
     width: 20em;
   }
   input[type="text"]:focus, textarea:focus {
