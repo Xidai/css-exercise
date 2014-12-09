@@ -1,0 +1,186 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: verdana, arial, sans-serif;
+  background-color: #daede2;
+}
+
+ul li, ol li {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-family: "arial narrow", arial, verdana, sans-serif;
+}
+
+h3 {
+  font-size: 2.25em;
+  padding: 0.25em 0em 0.25em 0em;
+}
+p {
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  padding: 0.5em 0em;
+}
+a, a:link, a:visited {
+  font-size: 1em;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-transition: border-color 0.2s ease;
+  -moz-transition: border-color 0.2s ease;
+  -o-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+
+a:hover {
+  border-bottom: 1px solid #ea2e49;
+}
+
+.container {
+  position: relative;
+  background-color: #77c4d3;
+  width: auto;
+  margin: 5%;
+}
+.container .wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.intro {
+  width: 55%;
+  padding: 5%;
+}
+.intro, .intro a:link, .intro a:visited {
+  color: #fff;
+}
+.intro h1 {
+  background-color: #ea2e49;
+  padding: 0.8em 1em;
+  text-transform: uppercase;
+  width: 10em;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+.intro h2{
+  font-size: 8em;
+  margin: 0.3em 0;
+}
+.intro ul {
+  margin-top: 5em;
+}
+.intro ul li {
+  text-transform: uppercase;
+  border-top: 1px solid #ea2e49;
+  padding-top: 1.8em;
+  margin: 1.8em 0em;
+  color: #fff;
+}
+.intro ul li:first-child {
+  border-top: none;
+}
+.intro ul li p {
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+}
+.intro article#premeable {
+  width: 95%;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  margin-top: 6em;
+  padding: 5% 5% 5% 30%;
+  position: relative;
+  left: -30%;
+}
+
+.main {
+  margin: 5% auto;
+  width: 90%;
+  position: relative;
+  z-index: 2;
+  padding-bottom: 5%;
+}
+.main .explanation article, .main .participate article {
+  color: #fff;
+  padding: 3em;
+}
+.main .benefits article, .main .requirements article {
+  color: #333;
+  padding: 3em;
+}
+.main .benefits a, .main .requirements a {
+  color: #333;
+}
+.main .explanation {
+  width: 50%;
+  float: left;
+}
+.main .participate {
+  width: 50%;
+  float: left;
+  background-color: rgba(234,46,73,0.9);
+}
+.main .benefits {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.9);
+  float: left;
+  margin: 10% 0;
+}
+.main .requirements {
+  width: 70%;
+  background-color: rgba(255, 255, 255, 0.9);
+  float: left;
+}
+.main .requirements p:last-child {
+  border-top: 1px solid #ea2e49;
+  padding-top: 1.5em;
+  margin-top: 1em;
+}
+.main footer {
+  width: 50%;
+  background-color: rgba(246,247,146,0.9);
+  padding: 1em 3em;
+  clear: both;
+}
+.main footer ul li {
+  display: inline-block;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+.main footer ul li a {
+  color: #333;
+}
+aside {
+  position: absolute;
+  z-index: 2;
+  top: 5%;
+  right: 0px;
+  width: 22.8%;
+  padding: 5% 5%;
+  background-color: rgba(246,247,146,0.9);
+}
+aside .wrapper {
+  position: relative;
+}
+aside ul li {
+  color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 1em;
+  padding-bottom: 0.825em;
+}
+aside > ul > li {
+  margin-bottom: 2em;
+}
+aside ul li h3, aside ul li a:link, aside ul li a:visited {
+  color: #333;
+}
+.sideBackground {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 30%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
